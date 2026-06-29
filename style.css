@@ -1,29 +1,3 @@
-/* :hover body{
-    background-color: rgb(34, 255, 0);
-   
-}
-#main{
-    background-color: green;
-    height: 800px;
-    font-style: italic;
-    color: white;
-    position: static;
-}
-
-h1{
-   text-align: center;
-   padding-top: 80px;
-   
-}
-
-:hover.buy{
-    color: red;
-}
-
-video{
-    width: 600px;
-    height: 350px;
-} */
 
 body {
     font-family: Arial, sans-serif;
@@ -84,3 +58,23 @@ h4 {
   font-weight: normal;
   margin-bottom: 10px;
 }
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .container {
+    background: #1e1e1e;
+}
+
+body.dark .forecast-card {
+    background: #2d2d2d;
+    color: white;
+}
+
+body.dark button {
+    background: #444;
+    color: white;
+}
+
