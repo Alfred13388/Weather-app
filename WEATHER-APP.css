@@ -1,0 +1,86 @@
+/* :hover body{
+    background-color: rgb(34, 255, 0);
+   
+}
+#main{
+    background-color: green;
+    height: 800px;
+    font-style: italic;
+    color: white;
+    position: static;
+}
+
+h1{
+   text-align: center;
+   padding-top: 80px;
+   
+}
+
+:hover.buy{
+    color: red;
+}
+
+video{
+    width: 600px;
+    height: 350px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(255, 231, 236);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 169);
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+    margin: 15px 0;
+}
+
+#currentWeather {
+    margin-top: 20px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+
+.forecast-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    box-shadow: 0px 2px 5px rgb(19, 6, 255);
+}
+
+h4 {
+  margin-bottom: 3px;
+}
+
+.date {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
